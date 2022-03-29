@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Agency Perfect</title>
+    <title>CSE 380</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -51,7 +51,7 @@
 
                 <div class="navbar-header">
                    
-                    <a class="site-title"><span>Agency</span>Perfect</a>
+                    <a class="site-title"><span>CSE</span>380</a>
 
                 </div><!-- /.navbar-header -->
 
@@ -59,17 +59,17 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="active"><a href="index.html" data-toggle="dropdown">Home</a></li>
+                        <li class="active"><a href="index.html" data-toggle="dropdown">Benchmark1</a></li>
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                              <li><a href="portfolio.html">Portfolio</a></li>
-                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="portfolio.html">Benchmark2</a></li>
+                              <li><a href="blog.html">Benchmark3</a></li>
                             </ul>
 
                         </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="portfolio.html">Benchmark2</a></li>
+                        <li><a href="blog.html">Benchmark3</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="ui-elements.html">UI Elements</a></li>
 
@@ -84,8 +84,9 @@
     <div id="hero" class="hero overlay">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Submerged CSE 380</h1>
-                <p>Your clients on the internet. Learn how to receive them.</p>
+                <h1>Submerged: <br>
+                    Game Design Document</h1>
+                <p>by Kevin Duong, Chris Riordan, Steven Huynh</p>
                 <a href="#" class="btn btn-border">Learn more</a>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
@@ -152,60 +153,72 @@
                     The player wins if they are able to successfully kill the monster.</p>
 
                 <h2 class="heading-separator">CONTROLS</h2>
-                <p class="subheading-text">Right Arrow Key: Swim/Walk Right
-                    Left Arrow Key: Swim/Walk Left
-                    Up Arrow Key: Swim Up
-                    Down Arrow Key: Swim Down
-                    Space Bar: Jump
-                    ESC: Pause/Resume. If a game is not in progress, ESC does nothing</p>
+                <p class="subheading-text">
+                    Right Arrow Key: Swim/Walk Right<br>
+                    Left Arrow Key: Swim/Walk Left<br>
+                    Up Arrow Key: Swim Up<br>
+                    Down Arrow Key: Swim Down<br>
+                    Space Bar: Jump<br>
+                    ESC: Pause/Resume. If a game is not in progress, ESC does nothing<br>
+                </p>
 
                 <h2 class="heading-separator">GRAPHICAL USER INTERFACE</h2>
-                <p class="subheading-text">Splash Screen: The splash screen GUI presents a game logo, background art, a level selection button, controls button, and help button. 
+                <p class="subheading-text">
+                    Splash Screen: The splash screen GUI presents a game logo, background art, a level selection button, controls button, and help button. 
+                    <br>
                     In-Game Menu: While the game is in progress, we'll always have a game menu that
                      displays the gameplay controls again and allows the player to select from the following
-                     options:
-                        ESC: Resume
-                        Q: Quit to main menu
-                    In-Game GUI: Once the game begins, the only display on the screen besides the game itself is a timer which keeps track of the amount of time has elapsed since the game has began.</p>
+                     options:<br>
+                        ESC: Resume<br>
+                        Q: Quit to main menu<br>
+
+                    In-Game GUI: Once the game begins, the only display on the screen besides the game itself is a timer which keeps track of the amount of time has elapsed since the game has began.
+                </p>
 
                 <h2 class="heading-separator">ARTWORK</h2>
                 <p class="subheading-text">All artwork in the game will be original. The following needs to be created.
-                    Diver: The diver will be dressed in typical underwater scuba diving gear and have the following animations:	
-                        Swimming Right
-                        Swimming Left
-                        Swimming Up
-                        Swimming Down
-                        Walking Right
-                        Walking Left
-                        Jumping
-                        Taking Damage
-                        Dying
-                        Dead
-                    Monster: The monster will have two phases: shark phase and amphibious phase. The monster will have the following animations:
-                        Chomping Right
-                        Walking Right
-                        Walking Left
-                        Jumping
-                        Attacking Right
-                        Attacking Left
-                        Taking Damage
-                        Dying
-                        Dead
+                    Diver: The diver will be dressed in typical underwater scuba diving gear and have the following animations:	<br>
+                    <br>
+                        Swimming Right<br>
+                        Swimming Left<br>
+                        Swimming Up<br>
+                        Swimming Down<br>
+                        Walking Right<br>
+                        Walking Left<br>
+                        Jumping<br>
+                        Taking Damage<br>
+                        Dying<br>
+                        Dead<br>
+                    <br>
+                    Monster: The monster will have two phases: shark phase and amphibious phase. The monster will have the following animations: <br>
+                    <br>
+                        Chomping Right<br>
+                        Walking Right<br>
+                        Walking Left<br>
+                        Jumping<br>
+                        Attacking Right<br>
+                        Attacking Left<br>
+                        Taking Damage<br>
+                        Dying<br>
+                        Dead<br>
+                    <br>
                     Spikes/Triggers: The player will take damage if they touch the spikes. 
                         The player will trigger an event that could cause damage to the monster in the boss battle if they touch a trigger. 
                         For these non-collidable tiles, we will use specific tiles from the tileset in order to indicate to the player that these are interactable and for the purpose of implementing the corresponding events.
+                    <br>
                     Background Tiles: For non-collidable tiles in the background, we will simply arrange tiles from the tileset in various patterns.</p>
 
                 <h2 class="heading-separator">SOUND EFFECTS</h2>
-                <p class="subheading-text">All sound effects will be original. The following sound effects will be required:
-                    Swimming
-                    Landing
-                    Player Takes Damage
-                    Player Dies
-                    Monster Takes Damage
-                    Monster Dies
-                    Falling Spike Collides
-                    Trigger Hit
+                <p class="subheading-text">All sound effects will be original. The following sound effects will be required: <br>
+                <br>
+                    Swimming<br>
+                    Landing<br>
+                    Player Takes Damage<br>
+                    Player Dies<br>
+                    Monster Takes Damage<br>
+                    Monster Dies<br>
+                    Falling Spike Collides<br>
+                    Trigger Hit<br>
                     </p>
 
                 <h2 class="heading-separator">MUSIC</h2>
@@ -216,8 +229,6 @@
                     <div class="col-md-3 col-xs-6">
                         <div class="service">
                             <img src="assets/img/design-2.png" alt="">
-                            <h2 class="heading-separator">DELETE</h2>
-                <p class="subheading-text">The objective of Submerged is to navigate the player through the underwater cave and defeat the monster without dying.</p>
                         </div><!-- /.service -->
                     </div>
                 </div>
@@ -230,22 +241,30 @@
                     </div>
                 </div>
                     
+                <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="service">
                             <img src="assets/img/design-4.png" alt="">
-                            <h3 class="service-title">Coding</h3>
-                            <p class="service-info">We use the best coding practices</p>
                         </div><!-- /.service -->
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-6">
-                    <div class="service">
-                        <img src="assets/img/design-5.png" alt="">
-                        <h3 class="service-title">Coding</h3>
-                        <p class="service-info">We use the best coding practices</p>
-                    </div><!-- /.service -->
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="assets/img/design-5.png" alt="">
+                        </div><!-- /.service -->
+                    </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="assets/img/design-6.2.png" alt="">
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+
             </div>
 
                 </div>
@@ -371,7 +390,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <a class="site-title"><span>Agency</span>Perfect</a>
+                    <a class="site-title"><span>CSE</span>380</a>
                     <p>We're a digital agency focused on creative and results-driven solutions.</p>
                     <p>We measure our success by the results we drive for our clients.</p>
                 </div>
@@ -388,9 +407,9 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                     <h3>Featured links</h3>
                     <ul class="list-unstyled">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="portfolio.html">Porfolio</a></li>
+                        <li class="active"><a href="index.html">Benchmark1</a></li>
+                        <li><a href="blog.html">Benchmark2</a></li>
+                        <li><a href="portfolio.html">Benchmark3</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -409,7 +428,7 @@
                     </div>
                     <div class="col-xs-4">
                         <div class="text-right">
-                            <p>&copy; AgencyPerfect</p>
+                            <p>&copy; CSE380</p>
                             <p>All Rights Reserved</p>
                         </div>
                     </div>
